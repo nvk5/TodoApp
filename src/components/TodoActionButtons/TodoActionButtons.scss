@@ -1,0 +1,12 @@
+.todo-action-button {
+    font-family: 'FontAwesome';
+
+    &.btn-outline-success {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

@@ -1,0 +1,25 @@
+@keyframes todo-validation-show {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+.todo-validation {
+    color: #dc3545;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 110px;
+    opacity: 0;
+    display: none;
+}
+
+.todo-validation.show {
+    animation: todo-validation-show 1s ease;
+    display: block;
+    opacity: 1;
+}

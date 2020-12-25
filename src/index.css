@@ -1,0 +1,17 @@
+body {
+  font-family: 'Overlock Black', cursive;
+  transition: background .5s ease, color .5s ease;
+}
+
+body.dark {
+  background: #212529;
+  color: #fff;
+}
+
+@media (max-width: 575.98px) {
+  html {
+    font-size: 90%;
+  }
+}
+
+

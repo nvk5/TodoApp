@@ -1,0 +1,21 @@
+.todo-list-field {
+    font-size: 1.375rem;
+    cursor: pointer;
+
+    &.archieved {
+        cursor: auto;
+    }
+
+    &.completed {
+        text-decoration: line-through;
+    }
+
+    &.favourite {
+        text-shadow: 0 0 2px yellow;
+        box-shadow: 0 0 2px 2px yellow;
+    }
+
+    &:focus {
+        box-shadow: none;
+    }
+}
